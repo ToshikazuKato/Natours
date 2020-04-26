@@ -3,7 +3,7 @@ const anchors = document.querySelectorAll("nav.navigation__nav ul.navigation__li
 const nav_toggle = document.getElementById("navi-toggle");
 anchors.forEach(a=>{
 	a.addEventListener('click', (e) => {
-		e.preventDefault();e.stopPropagation();
+		// e.preventDefault();e.stopPropagation();
 		nav_toggle.checked = false;
 	});
 });
